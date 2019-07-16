@@ -1,0 +1,9 @@
+.vscode
+dist
+*.pyz
+.tox/
+*.pyc
+.cache
+*.egg-info
+.coverage
+coverage.xml

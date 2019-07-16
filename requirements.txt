@@ -1,0 +1,5 @@
+appdirs
+click
+python-dotenv
+python-json-logger
+-e .

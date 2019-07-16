@@ -1,0 +1,12 @@
+
+include *.md
+include .flake8
+include tox.ini
+recursive-include .circleci *
+recursive-include ci *
+recursive-include logging_cli *.py
+recursive-include logging_cli/tests/data *
+recursive-include requirements *
+
+recursive-exclude logging_cli *.pyc
+prune logging_cli/.vscode
